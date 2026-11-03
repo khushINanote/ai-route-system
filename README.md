@@ -166,28 +166,9 @@ The output in `mobile/dist/` can be deployed directly to **Vercel**, **Netlify**
 docker compose up -d --build
 ```
 
-### Deploy to Render / Railway / AWS EC2
-1. Deploy `Dockerfile` as a Web Service.
-2. Set Environment Variables:
-   - `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`
-   - `SECRET_KEY`
-3. Point your mobile app's `EXPO_PUBLIC_API_URL` to your live backend domain (e.g. `https://api.nirbhayanav.in`).
 
----
 
-## 🧪 Automated Testing
 
-Run the end-to-end API test suite:
-```bash
-python -u scripts/test_api.py
-```
-
-Test universal place search and route resolution across Nashik:
-```bash
-python -u scripts/test_any_input.py
-```
-
----
 
 ## 📄 License
 MIT License. Built for women's safety in Nashik, Maharashtra, India.
