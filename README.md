@@ -74,7 +74,7 @@ Where:
 - $\text{LightingRisk}_i = 30.0 \times (1.0 - L_i)$ (derived from road hierarchy)
 - $\text{IsolationRisk}_i = 15.0 \times \max(0, 1.0 - \text{ActivityCount} / 3.0)$
 - $\text{AlcoholRisk}_i = \min(10, 2 \times \text{LiquorShops}) + \min(8, 1.5 \times \text{Bars})$
-- $\text{EmergencyBonus}_i = \text{Bonus}_{\text{police}} (\le 8) + \text{Bonus}_{\text{hospital}} (\le 4) + \text{Bonus}_{\text{pharmacy}} (\le 3)$
+
 
 ---
 
