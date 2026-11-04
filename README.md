@@ -7,7 +7,6 @@ A formula-based, production-grade mobile navigation system built for women in **
 ## 🌟 Key Features
 
 - **Strictly Formula-Based Safety Engine**:
-  - No black-box machine learning or crime datasets.
   - Scores all 137,218 road segments on a transparent 0–100 scale using road lighting hierarchy, natural surveillance (commercial foot traffic), environmental isolation, alcohol venue penalties, and proximity bonuses to emergency facilities.
 - **Location-First Google Maps-Style Turn-by-Turn Navigation**:
   - Automatically centers on user's real GPS position.
